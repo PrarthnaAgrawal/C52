@@ -1,0 +1,72 @@
+h1 {
+    color: brown;
+    margin-left: 100px;
+}
+
+.header *{
+    border: solid;
+}
+
+.header{
+   background-color: rgb(216, 216, 25); 
+   display: flex;
+   justify-content: space-between;
+}
+
+.link{
+  background-color:beige; 
+    margin-right: 30px;
+}
+
+.link a{
+    margin-left: 20px;
+}
+
+.games{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.sm{
+    background-color: cyan;
+    justify-content: center;
+    display: flex;
+    justify-content: flex-center
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #DF2323
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: green; 
+}
+
+.play{
+    position:relative;
+}
+
+.play p{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+.play:hover p{
+    opacity:1
+}
+.play:hover img{
+    opacity:0.3
+}
